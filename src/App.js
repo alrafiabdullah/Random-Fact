@@ -1,9 +1,11 @@
+import Body from "./components/body/Body";
+
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <Body />
     </div>
   );
 }
