@@ -38,7 +38,7 @@ class Body extends Component {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            whileHover={{ scale: 1.2 }}
+            whileHover={{ scale: 1.173 }}
           >
             {this.state.clicked}
           </motion.div>
