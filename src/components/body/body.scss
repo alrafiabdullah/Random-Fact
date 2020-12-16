@@ -13,7 +13,10 @@ $button-text-color: #ffffff;
   .fact {
     border: 2px solid $button-bg;
     padding: 5%;
-    margin: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+
     font-size: 1.5rem;
 
     &:hover {
@@ -24,10 +27,9 @@ $button-text-color: #ffffff;
   .random-button {
     font-family: "Yanone Kaffeesatz", sans-serif;
     display: inline-block;
+    margin-top: 3%;
     font-size: 1.5rem;
     padding: 1em 2em;
-    margin-top: 100px;
-    margin-bottom: 60px;
     -webkit-appearance: none;
     appearance: none;
     background-color: $button-bg;
